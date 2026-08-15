@@ -889,6 +889,9 @@ h4 {
   padding-bottom: 0.55rem;
   border-bottom: 1px solid var(--line);
   color: var(--sea);
+  display: flex;
+  align-items: center;
+  height: 4rem;
 }
 
 .skill-group ul {

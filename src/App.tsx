@@ -155,20 +155,20 @@ export default function App() {
 
               <motion.div className="about__blocks" {...reveal(reduce)}>
                 <div className="about__block">
-                  <h3>Research focus</h3>
+                  <h3>System Architecture</h3>
+                  <p>{about.architecture}</p>
+                </div>
+                <div className="about__block">
+                  <h3>Research Focus</h3>
                   <p>{about.research}</p>
                 </div>
                 <div className="about__block">
-                  <h3>AI & Big Data</h3>
-                  <p>{about.learning}</p>
+                  <h3>AI & Infrastructure</h3>
+                  <p>{about.ai_systems}</p>
                 </div>
                 <div className="about__block">
-                  <h3>Future vision</h3>
-                  <p>{about.future}</p>
-                </div>
-                <div className="about__block">
-                  <h3>What drives me</h3>
-                  <p>{about.drive}</p>
+                  <h3>Problem Solving</h3>
+                  <p>{about.problem_solving}</p>
                 </div>
               </motion.div>
             </div>
